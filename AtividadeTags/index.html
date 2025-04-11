@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos e Seletores JS</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Eventos com Funções JavaScript</h1>
+
+    <!-- Por ID -->
+    <button id="botaoClique" onclick="clicarBotao()">Clique aqui</button>
+
+    <!-- Por Classe -->
+    <div class="caixa" onmouseover="mouseSobre()" onmouseout="mouseFora()">
+      Passe o mouse aqui
+    </div>
+
+    <!-- Por Nome -->
+    <form name="formulario" onsubmit="enviarFormulario(event)">
+      <input type="text" name="campoTexto" placeholder="Digite algo..." />
+      <button type="submit">Enviar</button>
+    </form>
+
+    <!-- Por Marca -->
+    <p onclick="clicarParagrafo()">Clique neste parágrafo</p>
+
+    <!-- Por seletor (data attribute) -->
+    <div>
+      <p name="clicarSpan" onclick="clicarBtn1()">Se liga só</p>
+    </div>
+    <!--por classe-->
+    <div>
+      <p class="mudarCor" onclick="mudarCor()">Clique e veja a mágica ;)</p>
+    </div>
+    <!--por id-->
+    <div>
+      <p id="clicarSpan2" onclick="clicarBtn2()">
+        Clique aqui e sofra as consequências :(
+      </p>
+    </div>
+    <!--por seletor-->
+    <div>
+      <p id="clicar2" onclick="clicar2()">Ainda quer continuar? :)</p>
+    </div>
+
+    <div>
+      <label>Então vamos lá:) </label>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

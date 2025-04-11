@@ -1,0 +1,66 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  margin: 10px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.caixa {
+  width: 200px;
+  height: 100px;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  transition: background-color 0.3s;
+}
+
+input {
+  margin-right: 10px;
+}
+
+span {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #dfe6e9;
+  cursor: pointer;
+}
+
+.mudarCor {
+  color: blue;
+}
+
+p {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #dfe6e9;
+  cursor: pointer;
+}
+
+label {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #dfe6e9;
+  cursor: pointer;
+}
+
+div{
+  
+
+}
